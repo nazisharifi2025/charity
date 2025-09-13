@@ -2,7 +2,7 @@ export default function WeyChos(){
     return(
         <div className="lg:h-screen h-fit w-full flex lg:flex-row flex-col scroll-animate justify-between items-center">
         <div className="lg:h-full md:h-[160vh] h-[180vh] mb-9 md:mb-0 lg-md-0 w-[80%] lg:w-1/2 flex scroll-animate justify-center p-18 items-center relative">
-          <img src="../poblic/img/img2.jpg" className="h-full w-full rounded-full" alt="" />
+          <img src="../poblic/img/why-choose-img-1.jpg" className="h-full w-full rounded-full" alt="" />
           <img src="../poblic/img/why-choose-img-2.jpg" className="h-[230px] absolute bottom-12 right-0 border-2 border-greenC w-[230px] rounded-full" alt="" />
 
         </div>

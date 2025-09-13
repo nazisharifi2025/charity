@@ -6,6 +6,7 @@ import OurTem from "../OurTem";
 import Quations from "../Quations";
 import RoyKard from "../RoyKard";
 import SliderAbout from "../SliderAbout";
+import WeyChos from "../WeyChos";
 
 export default function AboutUs(){
     return(
@@ -14,6 +15,7 @@ export default function AboutUs(){
             <SliderAbout/>
             <About/>
             <RoyKard/>
+            <WeyChos/>
             <Futher/>
             <OurTem/>
             <Quations/>
