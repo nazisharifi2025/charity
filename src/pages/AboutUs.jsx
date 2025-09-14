@@ -12,7 +12,7 @@ import RoyKard from "../RoyKard";
 import SliderAbout from "../SliderAbout";
 import WeyChos from "../WeyChos";
 
-export default function AboutUs() {
+export default function AboutUs({ dark, setDark }) {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -20,19 +20,23 @@ export default function AboutUs() {
     });
   }, []);
 
+  // تغییر رنگ بر اساس مود
+  const bgClass = dark ? "bg-greenC" : "bg-amber-100";
+  const textClass = dark ? "text-amber-100" : "text-greenC";
+
   return (
-    <div className="font-kalam min-h-screen w-full text-amber-100 relative bg-greenC">
-      <Navbar />
+    <div className={`font-kalam min-h-screen w-full relative ${bgClass} ${textClass}`}>
+      <Navbar dark={dark} setDark={setDark} />
       <SliderAbout />
 
-      <div data-aos="fade-up"><About /></div>
-      <div data-aos="fade-right"><RoyKard /></div>
-      <div data-aos="fade-left"><WeyChos /></div>
-      <div data-aos="fade-up"><Futher /></div>
-      <div data-aos="fade-up"><OurTem /></div>
-      <div data-aos="fade-up"><Quations /></div>
+      <div data-aos="fade-up"><About dark={dark} /></div>
+      <div data-aos="fade-right"><RoyKard dark={dark} /></div>
+      <div data-aos="fade-left"><WeyChos dark={dark} /></div>
+      <div data-aos="fade-up"><Futher dark={dark} /></div>
+      <div data-aos="fade-up"><OurTem dark={dark} /></div>
+      <div data-aos="fade-up"><Quations dark={dark} /></div>
 
-      <Footer />
+      <Footer dark={dark} />
     </div>
   );
 }

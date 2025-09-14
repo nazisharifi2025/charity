@@ -1,7 +1,7 @@
 export default function LatestPost(){
     return(
          <div dir="rtl" className="lg:h-screen h-fit w-full flex flex-col scroll-animate gap-3 justify-center items-center">
-          <h1 className="font-bold text-2xl scroll-animate">گالری 
+          <h1 className="font-bold text-2xl scroll-animate">آخرین پست
                    <span className="material-symbols-outlined text-amber-700" >
 volunteer_activism
 </span>

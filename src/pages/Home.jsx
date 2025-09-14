@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,6 +13,7 @@ import Serveces from "../Serveces";
 import Slider from "../Slider";
 import WeyChos from "../WeyChos";
 import With from "../With";
+import { Moon, Sun } from "lucide-react";
 
 export default function Home() {
   useEffect(() => {
@@ -22,11 +23,25 @@ export default function Home() {
     });
   }, []);
 
+  const [dark, setDark] = useState(true); // حالت پیش‌فرض: دارک مود
+
+  const themeBackground = dark ? "bg-greenC" : "bg-amber-50";
+  const themeText = dark ? "text-amber-100" : "text-greenC";
+
   return (
-    <div className="font-kalam text-amber-100 relative  h-fit bg-greenC">
-      <Navbar />
+    <div className={`font-kalam relative h-fit ${themeBackground} ${themeText}`}>
+      {/* دکمه تغییر حالت روشن/تیره */}
+      <button
+        onClick={() => setDark(!dark)}
+        className="fixed z-50 top-24 right-0 bg-amber-500 text-white py-4 px-5 rounded-lg rounded-r-none shadow-md hover:bg-amber-600 transition-all"
+      >
+        {dark ? <Moon/> : <Sun/>}
+      </button>
+
+      {/* ارسال حالت دارک به Navbar و Footer */}
+      <Navbar dark={dark} />
       <Slider />
-      
+
       <div data-aos="fade-up"><About /></div>
       <div data-aos="fade-right"><Serveces /></div>
       <div data-aos="fade-left"><With /></div>
@@ -36,7 +51,7 @@ export default function Home() {
       <div data-aos="fade-up"><Gallery /></div>
       <div data-aos="fade-up"><LatestPost /></div>
 
-      <Footer />
+      <Footer dark={dark} />
     </div>
   );
 }

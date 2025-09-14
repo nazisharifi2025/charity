@@ -7,7 +7,7 @@ import Navbar from "../Navbar";
 import ServecesS from "../ServecesS";
 import SliderServes from "../SliderServes";
 
-export default function Servecse() {
+export default function Servecse({ dark, setDark }) {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -15,16 +15,19 @@ export default function Servecse() {
     });
   }, []);
 
+  const bgClass = dark ? "bg-greenC" : "bg-amber-100";
+  const textClass = dark ? "text-amber-100" : "text-greenC";
+
   return (
-    <div className="font-kalam  w-full text-amber-100 relative bg-greenC">
-      <Navbar />
+    <div className={`font-kalam w-full relative ${bgClass} ${textClass}`}>
+      <Navbar dark={dark} setDark={setDark} />
       <div data-aos="fade-down">
-        <SliderServes />
+        <SliderServes dark={dark} />
       </div>
       <div data-aos="fade-up">
-        <ServecesS />
+        <ServecesS dark={dark} />
       </div>
-      <Footer />
+      <Footer dark={dark} />
     </div>
   );
 }
