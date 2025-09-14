@@ -15,10 +15,10 @@ export default function Serveces(){
       <h1 className="font-bold text-5xl  scroll-animate">مجموعه کامل خدمات ما</h1>
       <span className="w-[60%] text-center text-xl  scroll-animate"
         >خدمات ما بر ایجاد تغییرات پایدار از طریق توسعه جامعه، دسترسی به خدمات بهداشتی، حمایت آموزشی و کمک‌های اضطراری متمرکز است.</span>
-      <div className="lg:h-[90vh] md:h-[190vh] w-full flex gap-3 justify-evenly lg:flex-nowrap flex-wrap scroll-animate items-center">
+      <div className="h-fit w-full flex gap-6 justify-evenly lg:flex-nowrap flex-wrap scroll-animate items-center">
         <div
         id="serves1"
-          className="bg-amber-100 chinge text-greenC gap-6  scroll-animate rounded-2xl lg:h-[70vh] md:h-[100vh] lg:w-[340px] md:w-[270px] h-[110vh] flex flex-col justify-center items-center"
+          className="bg-amber-100 chinge text-greenC gap-6  scroll-animate rounded-2xl lg:h-[70vh]  lg:w-[340px] md:w-[270px] h-[50vh] flex flex-col justify-center items-center"
         >
           <strong className="text-xl text-center font-bold  scroll-animate"
             >دسترسی به مراقبت‌های بهداشتی</strong>
@@ -41,7 +41,7 @@ export default function Serveces(){
         </div>
         <div
         id="serves2"
-          className="bg-amber-100 text-greenC chinge scroll-animate gap-6 py-4 rounded-2xl lg:h-[70vh] md:h-[100vh] lg:w-[340px] md:w-[270px] h-[110vh] flex flex-col justify-center items-center"
+          className="bg-amber-100 text-greenC chinge scroll-animate gap-6 py-4 rounded-2xl lg:h-[70vh]  lg:w-[340px] md:w-[270px] h-[50vh] flex flex-col justify-center items-center"
         >
           <strong className="text-xl text-center font-bold"
             >برنامه‌های تأمین امنیت غذایی</strong>
@@ -64,7 +64,7 @@ export default function Serveces(){
         </div>
         <div
         id="serves3"
-          className="bg-amber-100 text-greenC gap-6 chinge  scroll-animate rounded-2xl lg:h-[70vh] md:h-[100vh] lg:w-[340px] md:w-[270px] h-[110vh] flex flex-col justify-center items-center"
+          className="bg-amber-100 text-greenC gap-6 chinge  scroll-animate rounded-2xl lg:h-[70vh] lg:w-[340px] md:w-[270px] h-[50vh] flex flex-col justify-center items-center"
         >
           <strong className="text-xl text-center font-bold"
             >کمک‌های آموزشی</strong>

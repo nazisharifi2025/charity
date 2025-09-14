@@ -51,7 +51,7 @@ export default function Futher() {
     <div
       dir="rtl"
       ref={counterSectionRef}
-      className="lg:h-[150vh] md:h-[340vh] h-[530vh] w-full gap-7 flex flex-col justify-center items-center"
+      className="lg:h-[150vh] h-fit w-full gap-7 flex flex-col justify-center items-center"
     >
       <h1 className="font-bold text-xl">
         <span className="material-symbols-outlined text-amber-700">
@@ -64,7 +64,7 @@ export default function Futher() {
         با دستاوردهای مثبت ما آشنا شوید؛ حاصل برنامه‌ها، همکاری‌ها و تلاش‌های پیگیرانه‌ ما. از سلامت و آموزش تا پایداری محیط‌ زیست، در مسیر ساختن آینده‌ای بهتر گام برداشته‌ایم.
       </p>
 
-      <div className="w-full md:h-[260vh] h-[430vh] p-10 lg:gap-0 gap-28 grid lg:grid-cols-3 md:grid-cols-2 md:grid-rows-3 lg:grid-rows-2 grid-cols-1 grid-rows-6">
+      <div className="w-full h-fit p-10 lg:gap-0 gap-5 grid lg:grid-cols-3 md:grid-cols-2 md:grid-rows-3 lg:grid-rows-2 grid-cols-1 grid-rows-6">
         <img
           src="../poblic/img/our-features-img-1.jpg"
           className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl"

@@ -1,7 +1,7 @@
 export default function About(){
     return(
-        <div  className="lg:h-[130vh] my-12 w-full lite flex lg:flex-row flex-col justify-between items-center py-7">
-      <div className="lg:h-full md:min-h-[130vh] min-h-[180vh] lg:w-[45%] md:w-[90%] w-full  relative px-12 lg:py-36 py-12 scroll-animate ">
+        <div dir="rtl" className="lg:h-[130vh] h-fit my-12 w-full lite flex lg:flex-row flex-col justify-between gap-34 items-center py-7">
+      <div className="lg:h-full h-fit lg:w-[45%] w-full  relative px-12 lg:py-36 py-12 scroll-animate ">
         <img
           src="../poblic/img/about-img-1.jpg"
           className="rounded-xl scroll-animate lg:w-[400px]  float-right"
@@ -25,7 +25,7 @@ export default function About(){
           </div>
         </div>
       </div>
-      <div id="text" className="lg:w-[45%] w-[90%] lg:h-full h-[150vh] flex flex-col gap-4 scroll-animate py-12  text-amber-100">
+      <div id="text" className="lg:w-[45%] w-[90%] lg:h-full h-fit flex flex-col gap-4 text-amber-100">
         <div className="flex space-x-2">
           <span className="material-symbols-outlined text-amber-600">
             diversity_4
@@ -36,7 +36,7 @@ export default function About(){
         <p  className="scroll-animate font-bold text-xl w-[70%]">
          با انگیزه‌ای برخاسته از همدلی و چشم‌اندازی مشترک، دست در دست جوامع کار می‌کنیم تا تغییری معنادار رقم بزنیم.
         </p>
-        <div className="flex justify-between items-center px-3 relative">
+        <div className="flex justify-between lg:flex-row md:flex-row flex-col items-center px-3 relative">
           <div className="w-1/2 h-[40vh] flex scroll-animate flex-col gap-2">
             <span
               className="material-symbols-outlined text-amber-600"
@@ -59,7 +59,7 @@ export default function About(){
           </div>
           <div
           id="div2"
-            className="bg-amber-100 lg:h-[40vh] md:h-[60vh] h-[70vh] -z-0 pt-24 flex items-center flex-col justify-center relative rounded-md w-[220px]"
+            className="bg-amber-100 lg:h-[40vh] md:h-[35vh] h-[40vh] -z-0 pt-24 flex items-center flex-col justify-center relative rounded-md w-[220px]"
          
           >
             <h1 className="text-gray-600 text-xl text-center">75,958</h1>
@@ -67,12 +67,13 @@ export default function About(){
             <p className="text-center text-gray-300">
               حمایت از توسعه با مشارکت مالی جامعه (رسمی و انسانی)
             </p>
-          </div>
-          <img
+              <img
             src="../poblic/img/helped-fund-img.jpg"
             className="rounded-full h-[150px] w-[150px] z-50 absolute -top-10 right-12"
             alt=""
           />
+          </div>
+        
         </div>
       </div>
     </div>

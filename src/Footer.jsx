@@ -4,7 +4,7 @@ export default function Footer(){
       <div className="h-full w-full scroll-animates bg-bgcon flex lg:flex-row flex-col justify-between py-8">
         <div className="h-[70%] lg:w-[45%] w-full flex flex-col px-10 py-28 lg:border-r  border-r-0">
           <img src="../poblic/img/logo.svg" className="h-20" alt="" />
-          <div className="flex justify-between  gap-6">
+          <div className="flex justify-between lg:flex-row md:flex-row flex-col gap-6">
             <div className="flex flex-col gap-4 my-6">
               <p className="text-xl">To free cart costomize care</p>
               <h1 className="font-bold text-2xl">+93795064649</h1>
@@ -24,7 +24,7 @@ export default function Footer(){
             </div>
           </div>
         </div>
-        <div className="h-[90%] w-[45%] flex items-center my-24 flex-col mx-auto gap-4">
+        <div className="h-[90%] lg:w-[45%] md:w-[50%] w-full flex items-center my-24 flex-col mx-auto gap-4">
           <div className="flex w-full gap-2 justify-center items-center" dir="rtl">
             <input type="text" class="w-[80%] rounded-full border outline-0 py-3" placeholder="لطفا ایمیل تان را بنویسید" dir="rtl" />
             <button className="bg-amber-600 p-4 rounded-full">

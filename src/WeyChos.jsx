@@ -51,15 +51,15 @@ export default function WeyChos() {
   };
 
   return (
-    <div className="lg:h-screen h-fit w-full flex lg:flex-row flex-col scroll-animate justify-between items-center">
+    <div dir="rtl" className="lg:h-screen h-fit w-full flex lg:flex-row flex-col scroll-animate justify-between items-center">
       {/* بخش تصویر */}
-      <div className="lg:h-full md:h-[160vh] h-[180vh] mb-9 md:mb-0 w-[80%] lg:w-1/2 flex scroll-animate justify-center p-18 items-center relative">
+      <div className="lg:h-full md:h-[80vh] h-[60vh] mb-9 md:mb-0 w-full lg:w-1/2 flex scroll-animate justify-center p-18 items-center relative">
         <img src="../poblic/img/why-choose-img-1.jpg" className="h-full w-full rounded-full" alt="" />
         <img src="../poblic/img/why-choose-img-2.jpg" className="h-[230px] absolute bottom-12 right-0 border-2 border-greenC w-[230px] rounded-full" alt="" />
       </div>
 
       {/* بخش متن و کانتر */}
-      <div className="lg:h-full md:h-[100vh] h-[120vh] w-full lg:justify-start justify-center lg:w-1/2 flex flex-col scroll-animate gap-4 p-16" dir="rtl">
+      <div className="lg:h-full h-fit w-full lg:justify-start justify-center lg:w-1/2 flex flex-col scroll-animate gap-4 p-16" dir="rtl">
         <h1 className="font-bold text-xl">
           <span className="material-symbols-outlined text-amber-700">volunteer_activism</span>
           چرا ما را انتخاب کنید؟
@@ -90,16 +90,16 @@ export default function WeyChos() {
         </div>
 
         {/* بخش شمارشگر */}
-        <div className="flex justify-evenly scroll-animate" ref={counterSectionRef}>
-          <div className="flex justify-center flex-col items-center w-[200px] border-r h-[140px]">
+        <div className="flex lg:justify-evenly items-center lg:flex-row md:flex-row flex-col justify-center scroll-animate" ref={counterSectionRef}>
+          <div className="flex justify-center flex-col items-center lg:w-[200px] md:w-[240px] w-[full]  md:border-r border-0 lg:border-r h-[140px]">
             <h1 data-target="25" className="font-bold text-4xl count font-serif">0</h1>
             <h2 className="text-[20px]">سال‌ها سابقه کار</h2>
           </div>
-          <div className="flex justify-center flex-col items-center w-[200px] border-r h-[140px]">
+          <div className="flex justify-center flex-col items-center lg:w-[200px] md:w-[240px] w-[full]  md:border-r border-0 lg:border-r h-[140px]">
             <h1 data-target="230" className="font-bold text-4xl count font-serif">0</h1>
             <h2 className="text-[20px] text-center">با بیش از هزار داوطلب فعال</h2>
           </div>
-          <div className="flex justify-center flex-col items-center w-[200px] border-r h-[140px]">
+          <div className="flex justify-center flex-col items-center lg:w-[200px] md:w-[240px] w-[full]  md:border-r border-0 lg:border-rh-[140px]">
             <h1 data-target="430" className="font-bold text-4xl count font-serif">0</h1>
             <h2 className="text-[20px]">دفاتر در سراسر جهان</h2>
           </div>
