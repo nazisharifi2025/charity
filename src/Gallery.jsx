@@ -1,6 +1,6 @@
 export default function Gallery(){
     return(
-          <div className="lg:h-screen md:h-[180vh] h-[340vh] mb-12 w-full flex flex-col scroll-animate gap-3 justify-center items-center">
+          <div className="lg:h-screen md:h-[180vh] h-[340vh] mb-12 w-full flex flex-col gap-3 justify-center items-center">
           <h1 className="font-bold text-2xl scroll-animate">گالری 
                    <span className="material-symbols-outlined text-amber-700">
 volunteer_activism

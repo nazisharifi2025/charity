@@ -61,7 +61,7 @@ send
           </div>
         </div>
       </div>
-      <div className="w-full h-20 flex justify-center lg:bg-bgfi bg-bgcon  items-center text-2xl font-bold">
+      <div className="w-full h-20 flex justify-center lg:bg-bg-con bg-bgcon  items-center text-2xl font-bold">
         <h1>Copyright © 2025 All Rights Reserved.</h1>
       </div>
     </footer>

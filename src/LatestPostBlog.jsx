@@ -2,7 +2,7 @@ export default function LatestPostBlog(){
     return(
         <div
       dir="rtl"
-      className="lg:h-screen scroll-animate h-[220vh] my-36 w-full flex flex-col scroll-animate gap-3 justify-center items-center"
+      className="lg:h-screen scroll-animate h-[220vh] my-36 w-full flex flex-col  gap-3 justify-center items-center"
     >
       <div
         className="w-full flex scroll-animate lg:gap-12 gap-24 justify-evenly lg:flex-wrap flex-wrap"

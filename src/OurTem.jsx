@@ -2,7 +2,7 @@ export default function OurTem(){
     return(
          <div
       dir="rtl"
-      className="lg:h-[100vh] scroll-animate md:h-[150vh] my-24 h-[250vh] w-full scroll-animate gap-7 flex flex-col justify-center items-center"
+      className="lg:h-[100vh] md:h-[150vh] my-24 h-[250vh] w-full scroll-animate gap-7 flex flex-col justify-center items-center"
     >
       <h1 className="font-bold text-xl">
         <span

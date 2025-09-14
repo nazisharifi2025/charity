@@ -1,6 +1,6 @@
 export default function Curses(){
     return(
-         <div className="lg:h-screen h-fit w-full flex justify-center scroll-animate items-center flex-col gap-8 ">
+         <div className="lg:h-screen h-fit w-full flex justify-center items-center flex-col gap-8 ">
         <p className="text-xl">
            <span className="material-symbols-outlined text-amber-600" >
             diversity_4
@@ -8,7 +8,7 @@ export default function Curses(){
           اهداف ما
         </p>
         <h1 className="font-extrabold text-3xl">پشتیبانی از فعالیت‌های اجتماعی جوامع</h1>
-        <div className="lg:h-[70vh] md:h-[170vh] h-[320vh] w-full flex gap-12 lg:flex-nowrap flex-wrap justify-evenly items-center scroll-animate">
+        <div className="lg:h-[70vh] md:h-[170vh] h-[320vh] w-full flex gap-12 lg:flex-nowrap flex-wrap justify-evenly items-center ">
           <div className="lg:h-[70vh] md:h-[80vh] h-[100vh] w-[340px] bg-amber-100 change rounded-2xl flex gap-3 scroll-animate text-greenC flex-col justify-center items-center py-3 p-7">
             <img src="../poblic/img/causes-img-1.jpg"  class="w-full lg:h-[120px] md:h-[120px] h-[130px] rounded-2xl" alt="" />
             <p className="text-xl font-extrabold">دسترسی به خدمات درمانی</p>

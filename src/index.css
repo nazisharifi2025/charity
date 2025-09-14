@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @theme {
   --color-bgcon: rgba(0, 81, 72, 0.9);
   --color-bgfi: rgba(255, 255, 255, 0.1);
@@ -16,4 +15,4 @@
   --color-um: rgb(32, 17, 61);
   --color-mint-500: oklch(0.72 0.11 178);
   --font-kalam: "Kalam-Regular", cursive;
-}
+};

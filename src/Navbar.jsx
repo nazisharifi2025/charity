@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar(){
     return(
         <div className="w-full">
@@ -30,10 +32,10 @@ close
 </span>
 </button>
       <li>
-        <a href="home.html" className="hover:border-b-2 hover:border-amber-100">خانه</a>
+        <Link to="/" className="hover:border-b-2 hover:border-amber-100">خانه</Link>
       </li>
       <li>
-        <a href="aboutus.html" className="hover:border-b-2 hover:border-amber-100">درباره ما</a>
+        <Link to="/AboutUs" className="hover:border-b-2 hover:border-amber-100">درباره ما</Link>
       </li>
       <div
       id="nave"
@@ -44,10 +46,10 @@ close
         </div>
       </div>
       <li>
-        <a href="#" className="hover:border-b-2 hover:border-amber-100">خدمات</a>
+        <Link to="/Servecse" className="hover:border-b-2 hover:border-amber-100">خدمات</Link>
       </li>
       <li>
-        <a href="#" className="hover:border-b-2 hover:border-amber-100">وبلاگ</a>
+        <Link to="/Blog" className="hover:border-b-2 hover:border-amber-100">وبلاگ</Link>
       </li>
     
    

@@ -2,7 +2,7 @@ export default function Slider(){
     return(
         <div
     dir="rtl"
-      className="lg:h-screen md:h-[55vh] h-[50vh] w-full lg:py-64  py-28 pt-48 lg:0 md: lg:my-0 bg-[url(../poblic/img/faqs-image.jpg)] bg-cover"
+      className="lg:h-screen md:h-[55vh] h-[50vh] w-full lg:py-64  py-28 pt-48 lg:0 md: lg:my-0 bg-[url(../poblic/img/hero-bg.jpg)] bg-cover"
     >
       <div
         className="text-xl text-amber-100 scroll-animate flex flex-col gap-4 justify-center items-start px-7 h-full"
