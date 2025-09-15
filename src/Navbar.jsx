@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import logo from "../poblic/img/logo_img.svg"
+import logo from "../poblic/img/logo.svg";
 export default function Navbar() {
   useEffect(() => {
     const menuBtn = document.getElementById("menu");
