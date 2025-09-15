@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-
+import logo from "../poblic/img/logo_img.svg"
 export default function Navbar() {
   useEffect(() => {
     const menuBtn = document.getElementById("menu");
@@ -40,7 +40,7 @@ export default function Navbar() {
           className="bg-greenC shadow-md shadow-amber-100 flex py-24 justify-center rounded-b-2xl h-32 w-[120px]"
         >
           <div className="pt-12 px-2 rounded-b-2xl ">
-            <img src="../poblic/img/logo.svg" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
         </div>
         <span
@@ -87,7 +87,7 @@ export default function Navbar() {
           className="bg-greenC hidden lg:block shadow-md shadow-amber-100 mt-5 flex justify-center items-center rounded-b-2xl h-32 w-[150px]"
         >
           <div className="py-8 px-2 rounded-b-2xl ">
-            <img src="/logo_img.svg" alt="لوگو" />
+            <img src="/logo_new.svg" alt="لوگو" />
           </div>
         </div>
 
