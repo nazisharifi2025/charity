@@ -81,7 +81,7 @@ export default function Quations() {
       </div>
 
       {/* تصویر کناری */}
-      <div className="lg:h-[100vh] scroll-animate lg:w-[45%] w-[80%] mx-auto p-6 bg-no-repeat bg-cover bg-[url(../poblic/img/causes-img-3.jpg)] ">
+      <div className="lg:h-[100vh] md:h-[60vh] rounded-md h-[50vh] scroll-animate lg:w-[45%] w-[80%] mx-auto p-6 bg-no-repeat bg-cover bg-[url(../poblic/img/causes-img-3.jpg)] ">
       </div>
     </div>
   );

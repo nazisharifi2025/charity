@@ -1,8 +1,8 @@
 export default function About(){
     return(
         <div dir="rtl" className="lg:h-[130vh] h-fit my-12 w-full lite flex lg:flex-row flex-col justify-between gap-34 items-center py-7">
-      <div className="lg:h-full h-fit lg:w-[45%] w-full  relative px-12 lg:py-36 py-12 scroll-animate ">
-        <div className="rounded-xl scroll-animate lg:w-[340px] lg:h-[360px] float-right bg-[url(../poblic/img/about-img-1.jpg)] bg-no-repeat bg-cover "></div>
+      <div className="lg:h-full md:h-fit h-[40vh] lg:w-[45%] w-full flex justify-center items-center  relative px-12 lg:py-36 py-12 scroll-animate ">
+        <div className="rounded-xl scroll-animate w-[340px] h-[360px] md:float-none float-right bg-[url(../poblic/img/about-img-1.jpg)] bg-no-repeat bg-cover "></div>
         <div className="flex w-full h-1/2 absolute lg:top-82 md:top-80 top-64">
         <div className="lg:w-[230px] bg-[url(../poblic/img/about-img-2.jpg)] bg-cover bg-no-repeat border-8 border-greenC scroll-animate lg:h-[230px] md:h-[230px] md:w-[230px] h-[180px] w-[180px] rounded-xl"></div>
           <div
