@@ -58,7 +58,7 @@ export default function About(){
             <p className="text-center text-gray-300">
               حمایت از توسعه با مشارکت مالی جامعه (رسمی و انسانی)
             </p>
-            <div  className=" bg-no-repeat bg-cover bg-[url(poblic/img/helped-fund-img.jpg)] rounded-full h-[150px] w-[150px] z-50 absolute -top-10 right-12"></div>
+            <div  className=" bg-no-repeat bg-cover bg-[url(../poblic/img/helped-fund-img.jpg)] rounded-full h-[150px] w-[150px] z-50 absolute -top-10 right-12"></div>
           </div>
         
         </div>
