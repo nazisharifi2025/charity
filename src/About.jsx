@@ -59,7 +59,7 @@ export default function About(){
               حمایت از توسعه با مشارکت مالی جامعه (رسمی و انسانی)
             </p>
               <img
-            src="../poblic/img/helped-fund-img.jpg"
+            src="poblic/img/helped-fund-img.jpg"
             className="rounded-full h-[150px] w-[150px] z-50 absolute -top-10 right-12"
             alt=""
           />
