@@ -53,9 +53,9 @@ export default function WeyChos() {
   return (
     <div dir="rtl" className="lg:h-screen h-fit w-full flex lg:flex-row flex-col scroll-animate justify-between items-center">
       {/* بخش تصویر */}
-      <div className="lg:h-full md:h-[80vh] h-[60vh] mb-9 md:mb-0 w-full lg:w-1/2 flex scroll-animate justify-center p-18 items-center relative">
+      <div className="lg:h-full md:h-[80vh] h-[50vh] mb-9 md:mb-0 w-full lg:w-1/2 flex scroll-animate justify-center lg:p-18 md:p-14 p-2 items-center relative">
       <div className="h-full w-full rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/why-choose-img-1.jpg)] "></div>
-      <div className="h-[230px] absolute bottom-12 right-0 border-2 border-greenC w-[230px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/why-choose-img-2.jpg)] "></div>
+      <div className="h-[230px] absolute lg:bottom-12 md:bottom-10 -bottom-12 right-0 border-2 border-greenC w-[230px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/why-choose-img-2.jpg)] "></div>
       </div>
 
       {/* بخش متن و کانتر */}

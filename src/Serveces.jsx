@@ -12,7 +12,7 @@ export default function Serveces(){
         </span>
         خدمات
       </h3>
-      <h1 className="font-bold text-5xl  scroll-animate">مجموعه کامل خدمات ما</h1>
+      <h1 className="font-bold text-5xl text-center scroll-animate">مجموعه کامل خدمات ما</h1>
       <span className="w-[60%] text-center text-xl  scroll-animate"
         >خدمات ما بر ایجاد تغییرات پایدار از طریق توسعه جامعه، دسترسی به خدمات بهداشتی، حمایت آموزشی و کمک‌های اضطراری متمرکز است.</span>
       <div className="h-fit w-full flex gap-6 justify-evenly lg:flex-nowrap flex-wrap scroll-animate items-center">

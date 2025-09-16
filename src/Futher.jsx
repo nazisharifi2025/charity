@@ -64,7 +64,7 @@ export default function Futher() {
         با دستاوردهای مثبت ما آشنا شوید؛ حاصل برنامه‌ها، همکاری‌ها و تلاش‌های پیگیرانه‌ ما. از سلامت و آموزش تا پایداری محیط‌ زیست، در مسیر ساختن آینده‌ای بهتر گام برداشته‌ایم.
       </p>
 
-      <div className="w-full h-fit p-10 lg:gap-0 gap-5 grid lg:grid-cols-3 justify-center items-center md:grid-cols-2 md:grid-rows-3 lg:grid-rows-2 grid-cols-1 grid-rows-6">
+      <div className="w-full h-fit  lg:gap-0 gap-5 grid lg:grid-cols-3 justify-center items-center md:grid-cols-2 md:grid-rows-3 lg:grid-rows-2 grid-cols-1 grid-rows-6">
         <div className="h-[300px] mx-auto scroll-animate lg:w-[390px] md:w-[350px] w-[390px] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/our-features-img-1.jpg)] "></div>
         <div className="h-[280px] lg:w-[300px] md:[300px] w-full flex flex-col justify-center ">
           <div className="w-full flex justify-between text-amber-600">
