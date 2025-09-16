@@ -12,7 +12,7 @@ volunteer_activism
             <div className="lg:h-[65vh] md:h-[60vh] h-[60vh] w-[340px] items-center scroll-animate change text-greenC rounded-3xl border bg-amber-100  shadow-md shadow-amber-100 flex flex-col gap-4 justify-center p-5">
               <p className="text-amber-700 font-bold text-xl">January 8, 2025</p>
               <p className=" font-bold text-2xl ">برنامه رهبری جوانان الهام‌بخش نسل آینده است</p>
-              <img src="../poblic/img/post-img-1.jpg" className="w-[90%] rounded-3xl" alt="" />
+              <div className="w-[90%] rounded-3xl h-[50%] bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-1.jpg)] "></div>
               <button className="">بیشتر بدانید 
                 <span className="material-symbols-outlined bg-amber-600 rounded-full p-2 ">
             arrow_forward
@@ -22,7 +22,7 @@ volunteer_activism
             <div className="lg:h-[65vh] md:h-[60vh] h-[60vh] w-[340px] items-center scroll-animate change text-greenC rounded-3xl border bg-amber-100  shadow-md shadow-amber-100 flex flex-col gap-4 justify-center p-5">
               <p className="text-amber-700 font-bold text-xl">January 8, 2025</p>
               <p className=" font-bold text-2xl ">برنامه رهبری جوانان الهام‌بخش نسل آینده است</p>
-              <img src="../poblic/img/post-img-2.jpg" className="w-[90%] rounded-3xl" alt="" />
+              <div className="w-[90%] rounded-3xl h-[50%] bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-2.jpg)] "></div>
               <button>بیشتر بدانید 
                 <span className="material-symbols-outlined bg-amber-600 rounded-full p-2 ">
             arrow_forward
@@ -32,7 +32,7 @@ volunteer_activism
             <div className="lg:h-[65vh] md:h-[60vh] h-[60vh] w-[340px] items-center scroll-animate change text-greenC rounded-3xl border bg-amber-100  shadow-md shadow-amber-100 flex flex-col gap-4 justify-center p-5">
               <p className="text-amber-700 font-bold text-xl">January 8, 2025</p>
               <p className="font-bold text-2xl ">برنامه رهبری جوانان الهام‌بخش نسل آینده است</p>
-              <img src="../poblic/img/post-img-3.jpg" className="w-[90%] rounded-3xl" alt="" />
+              <div className="w-[90%] rounded-3xl h-[50%] bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-3.jpg)] "></div>
               <button >بیشتر بدانید 
                 <span className="material-symbols-outlined bg-amber-600 rounded-full p-2 " >
             arrow_forward
