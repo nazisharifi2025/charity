@@ -76,7 +76,7 @@ export default function RoyKard(){
         </div>
       </div>
       <div className="h-full w-[80%] scroll-animate mx-auto scroll-animate">
-        <img src="../poblic/img/our-fact-image.jpg" className="w-full h-full rounded-2xl"alt=""/>
+        <div className="w-full h-full rounded-2xl bg-no-repeat bg-cover bg-[url(../poblic/img/our-fact-image.jpg)] "></div>
       </div>
     </div>
     )
