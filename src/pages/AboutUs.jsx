@@ -6,7 +6,6 @@ import About from "../About";
 import Footer from "../Footer";
 import Futher from "../Futher";
 import Navbar from "../Navbar";
-import OurTem from "../OurTem";
 import Quations from "../Quations";
 import RoyKard from "../RoyKard";
 import SliderAbout from "../SliderAbout";
@@ -33,7 +32,6 @@ export default function AboutUs({ dark, setDark }) {
       <div data-aos="fade-right"><RoyKard dark={dark} /></div>
       <div data-aos="fade-left"><WeyChos dark={dark} /></div>
       <div data-aos="fade-up"><Futher dark={dark} /></div>
-      <div data-aos="fade-up"><OurTem dark={dark} /></div>
       <div data-aos="fade-up"><Quations dark={dark} /></div>
 
       <Footer dark={dark} />
