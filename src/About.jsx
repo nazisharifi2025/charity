@@ -2,7 +2,7 @@ export default function About(){
     return(
         <div dir="rtl" className="lg:h-[130vh] h-fit my-12 w-full lite flex lg:flex-row flex-col justify-between gap-34 items-center py-7">
       <div className="lg:h-full h-fit lg:w-[45%] w-full  relative px-12 lg:py-36 py-12 scroll-animate ">
-        <div className="rounded-xl scroll-animate lg:w-[400px]  float-right bg-[url(../poblic/img/about-img-1.jpg)] bg-no-repeat bg-cover "></div>
+        <div className="rounded-xl scroll-animate lg:w-[340px] lg:h-[360px] float-right bg-[url(../poblic/img/about-img-1.jpg)] bg-no-repeat bg-cover "></div>
         <div className="flex w-full h-1/2 absolute lg:top-72 md:top-80 top-64">
           <img
           id="img"
