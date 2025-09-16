@@ -17,10 +17,10 @@ export default function Footer(){
           <div className="flex flex-col gap-3 ">
             <h1 className="font-extrabold text-2xl">دنبال کردن</h1>
             <div className="flex space-x-3">
-              <img src="../poblic/img/Screenshot 2025-06-09 110928.png" className="rounded-full h-10 w-10" alt="" />
-              <img src="../poblic/img/Screenshot 2025-06-09 110936.png" className="rounded-full h-10 w-10" alt="" />
-              <img src="../poblic/img/Screenshot 2025-06-09 110943.png" className="rounded-full h-10 w-10" alt="" />
-              <img src="../poblic/img/Screenshot 2025-06-09 110951.png" className="rounded-full h-10 w-10" alt="" />
+              <div className="rounded-full h-10 w-10 bg-no-repeat bg-cover bg-[url(../poblic/img/Screenshot 2025-06-09 110928.png)] "></div>
+              <div className="rounded-full h-10 w-10 bg-no-repeat bg-cover bg-[url(../poblic/img/Screenshot 2025-06-09 110936.png)] "></div>
+              <div className="rounded-full h-10 w-10 bg-no-repeat bg-cover bg-[url(../poblic/img/Screenshot 2025-06-09 110943.png)] "></div>
+              <div className="rounded-full h-10 w-10 bg-no-repeat bg-cover bg-[url(../poblic/img/Screenshot 2025-06-09 110951.png)] "></div>
             </div>
           </div>
         </div>
