@@ -84,10 +84,9 @@ export default function Navbar() {
         {/* لوگو وسط منو در دسکتاپ */}
         <div
           id="nave"
-          className="bg-greenC hidden lg:block shadow-md shadow-amber-100 mt-5 flex justify-center items-center rounded-b-2xl h-32 w-[150px]"
+          className="bg-greenC hidden lg:block shadow-md shadow-amber-100 mt-5 pt-8 flex justify-center items-center rounded-b-2xl h-32 w-[150px]"
         >
-          <div className="py-8 px-2 rounded-b-2xl ">
-            <img src="../poblic/img/logo.svg" alt="لوگو" />
+          <div className="py-8 px-2 rounded-b-2xl bg-[url(../poblic/img/logo.svg)] bg-no-repeat bg-cover ">
           </div>
         </div>
 
