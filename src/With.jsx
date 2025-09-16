@@ -48,8 +48,8 @@ cottage
         </div>
       </div>
        <div className="lg:h-full md:h-[80vh] float-right h-[70vh] my-11 lg:w-1/2 w-full flex justify-center items-center relative scroll-animate">
-        <img src="../poblic/img/what-we-do-image-1.jpg" className="h-full scroll-animate rounded-3xl lg:w-[70%] md:w-[70%] w-[90%]" alt="" />
-        <img src="../poblic/img/what-we-do-image-2.jpg" id="img2" className="h-[200px] scroll-animate w-[200px] border-8 border-greenC rounded-full absolute lg:bottom-28 lg:left-0 md:bottom-28 md:left-0 -left-13 bottom-10" alt="" />
+       <div className="h-full scroll-animate rounded-3xl lg:w-[80%] md:w-[70%] w-[90%] bg-no-repeat bg-cover bg-[url(../poblic/img/what-we-do-image-1.jpg)] "></div>
+       <div className="h-[200px] scroll-animate w-[200px] border-8 border-greenC rounded-full absolute bg-cover bg-[url(../poblic/img/what-we-do-image-2.jpg)] lg:bottom-28 lg:left-0 md:bottom-28 md:left-0 -left-13 bottom-10"></div>
      </div>
      </div>
     )
