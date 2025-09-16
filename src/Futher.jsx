@@ -65,11 +65,7 @@ export default function Futher() {
       </p>
 
       <div className="w-full h-fit p-10 lg:gap-0 gap-5 grid lg:grid-cols-3 md:grid-cols-2 md:grid-rows-3 lg:grid-rows-2 grid-cols-1 grid-rows-6">
-        <img
-          src="../poblic/img/our-features-img-1.jpg"
-          className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl"
-          alt=""
-        />
+        <div className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/our-features-img-1.jpg)] "></div>
         <div className="h-[280px] lg:w-[300px] md:[300px] w-full flex flex-col justify-center ">
           <div className="w-full flex justify-between text-amber-600">
             <h1 data-target="94" className="text-5xl count font-bold">0</h1>
@@ -78,12 +74,7 @@ export default function Futher() {
           <p className="font-bold text-2xl">پشتیبانی آموزشی</p>
           <p className="font-bold text-2xl">ارائه خدمات و منابع ضروری سلامت به جوامع</p>
         </div>
-
-        <img
-          src="../poblic/img/our-features-img-3.jpg"
-          className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl"
-          alt=""
-        />
+        <div className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/our-features-img-3.jpg)] "></div>
         <div className="h-[280px] lg:w-[300px] md:w-[300px] w-full flex flex-col justify-center ">
           <div className="w-full flex justify-between text-amber-600">
             <h1 data-target="96" className="text-5xl count font-bold">0</h1>
@@ -92,12 +83,7 @@ export default function Futher() {
           <p className="font-bold text-2xl">پشتیبانی آموزشی</p>
           <p className="font-bold text-2xl">ارائه خدمات و منابع ضروری سلامت به جوامع</p>
         </div>
-
-        <img
-          src="../poblic/img/our-features-img-2.jpg"
-          className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl"
-          alt=""
-        />
+        <div className="h-[300px] mx-auto scroll-animate w-[390px] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/our-features-img-2.jpg)] "></div>
         <div className="h-[280px] lg:w-[300px] md:w-[300px] w-full flex flex-col justify-center ">
           <div className="w-full flex justify-between text-amber-600">
             <h1 data-target="95" className="text-5xl count font-bold">0</h1>
