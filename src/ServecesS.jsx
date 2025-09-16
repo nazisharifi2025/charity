@@ -16,11 +16,7 @@ export default function ServecesS(){
           <p className="w-[80%] text-center scroll-animate">
             مقابله با گرسنگی و سوءتغذیه از طریق ارائه وعده‌های غذایی مغذی
           </p>
-          <img
-            src="../poblic/img/services-image-2.jpg"
-            className="h-[130px] w-[130px] rounded-full"
-            alt=""
-          />
+          <div className="h-[130px] w-[130px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/services-image-2.jpg)]"></div>
           <button>
             بیشتر بخوانید
             <span
@@ -40,11 +36,7 @@ export default function ServecesS(){
           <p className="w-[80%] text-center">
             مقابله با گرسنگی و سوءتغذیه از طریق تأمین وعده‌های غذایی مغذی
           </p>
-          <img
-            src="../poblic/img/services-image-1.jpg"
-            className="h-[130px] w-[130px] rounded-full"
-            alt=""
-          />
+          <div className="h-[130px] w-[130px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/services-image-1.jpg)]"></div>
           <button>
             بیشتر بخوانید
             <span
@@ -63,11 +55,7 @@ export default function ServecesS(){
           <p className="w-[80%] text-center">
             مقابله با گرسنگی و سوءتغذیه از طریق تأمین وعده‌های غذایی مغذی
           </p>
-          <img
-            src="../poblic/img/services-image-3.jpg"
-            className="h-[130px] w-[130px] rounded-full"
-            alt=""
-          />
+          <div className="h-[130px] w-[130px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/services-image-3.jpg)]"></div>
           <button>
             بیشتر بخوانید
             <span
@@ -87,11 +75,7 @@ export default function ServecesS(){
           <p className="w-[80%] text-center">
             مقابله با گرسنگی و سوءتغذیه از طریق تأمین وعده‌های غذایی مغذی
           </p>
-          <img
-            src="../poblic/img/hero-bg-2-1536x1024.jpg"
-            className="h-[130px] w-[130px] rounded-full"
-            alt=""
-          />
+          <div className="h-[130px] w-[130px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/hero-bg-2-1536x1024.jpg)]"></div>
           <button>
             بیشتر بخوانید
             <span
@@ -111,11 +95,7 @@ export default function ServecesS(){
           <p className="w-[80%] text-center">
             مقابله با گرسنگی و سوءتغذیه از طریق تأمین وعده‌های غذایی مغذی
           </p>
-          <img
-            src="../poblic/img/services-image-5.jpg"
-            className="h-[130px] w-[130px] rounded-full"
-            alt=""
-          />
+          <div className="h-[130px] w-[130px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/services-image-5.jpg)]"></div>
           <button>
             بیشتر بخوانید
             <span
@@ -136,11 +116,7 @@ export default function ServecesS(){
           <p className="w-[80%] text-center">
             مقابله با گرسنگی و سوءتغذیه از طریق تأمین وعده‌های غذایی مغذی
           </p>
-          <img
-            src="../poblic/img/services-image-6.jpg"
-            className="h-[130px] w-[130px] rounded-full"
-            alt=""
-          />
+          <div className="h-[130px] w-[130px] rounded-full bg-no-repeat bg-cover bg-[url(../poblic/img/services-image-6.jpg)]"></div>
           <button>
             بیشتر بخوانید
             <span
