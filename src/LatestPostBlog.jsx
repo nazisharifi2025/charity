@@ -14,11 +14,7 @@ export default function LatestPostBlog(){
           <p className="font-bold text-2xl">
             برنامه رهبری جوانان الهام‌بخش نسل آینده است
           </p>
-          <img
-            src="../poblic/img/post-img-1.jpg"
-            className="w-[90%] rounded-3xl"
-            alt=""
-          />
+          <div className="w-[90%] h-[50%] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-1.jpg)] "></div>
           <button>
             بیشتر بدانید
             <span
@@ -36,11 +32,7 @@ export default function LatestPostBlog(){
           <p className="font-bold text-2xl">
             برنامه رهبری جوانان الهام‌بخش نسل آینده است
           </p>
-          <img
-            src="../poblic/img/post-img-2.jpg"
-            className="w-[90%] rounded-3xl"
-            alt=""
-          />
+          <div className="w-[90%] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-2.jpg)] h-[50%] "></div>
           <button class="">
             بیشتر بدانید
             <span
@@ -58,11 +50,7 @@ export default function LatestPostBlog(){
           <p className="font-bold text-2xl">
             برنامه رهبری جوانان الهام‌بخش نسل آینده است
           </p>
-          <img
-            src="../poblic/img/post-img-3.jpg"
-            className="w-[90%] rounded-3xl"
-            alt=""
-          />
+          <div className="w-[90%] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-3.jpg)] h-[50%] "></div>
           <button>
             بیشتر بدانید
             <span
@@ -80,11 +68,7 @@ export default function LatestPostBlog(){
           <p className="font-bold text-2xl">
             حمایت‌گری در عمل: ایجاد تغییرات سیاستی به‌سود جامعه
           </p>
-          <img
-            src="../poblic/img/post-img-4-1024x576.jpg"
-            className="w-[90%] rounded-3xl"
-            alt=""
-          />
+          <div className="w-[90%] h-[50%] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-4-1024x576.jpg)] "></div>
           <button>
             بیشتر بدانید
             <span
@@ -102,11 +86,7 @@ export default function LatestPostBlog(){
           <p className="font-bold text-2xl">
             چگونه آموزش زندگی‌ها و آینده‌ها را متحول می‌سازد
           </p>
-          <img
-            src="../poblic/img/post-img-5-1024x576.jpg"
-            className="w-[90%] rounded-3xl"
-            alt=""
-          />
+          <div className="w-[90%] rounded-3xl bg-no-repeat bg-cover h-[50%] bg-[url(../poblic/img/post-img-5-1024x576.jpg)] "></div>
           <button class="">
             بیشتر بدانید
             <span
@@ -121,11 +101,8 @@ export default function LatestPostBlog(){
         >
           <p className="text-amber-700 font-bold text-xl">January 8, 2025</p>
           <p className="font-bold text-2xl">اهمیت دسترسی همگانی به خدمات درمانی</p>
-          <img
-            src="../poblic/img/post-img-6-1024x576.jpg"
-            className="w-[90%] rounded-3xl"
-            alt=""
-          />
+          <div className="w-[90%] h-[50%] rounded-3xl bg-no-repeat bg-cover bg-[url(../poblic/img/post-img-6-1024x576.jpg)] "></div>
+
           <button class="">
             بیشتر بدانید
             <span
