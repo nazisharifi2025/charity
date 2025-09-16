@@ -4,12 +4,7 @@ export default function About(){
       <div className="lg:h-full h-fit lg:w-[45%] w-full  relative px-12 lg:py-36 py-12 scroll-animate ">
         <div className="rounded-xl scroll-animate lg:w-[340px] lg:h-[360px] float-right bg-[url(../poblic/img/about-img-1.jpg)] bg-no-repeat bg-cover "></div>
         <div className="flex w-full h-1/2 absolute lg:top-72 md:top-80 top-64">
-          <img
-          id="img"
-            src="../poblic/img/about-img-2.jpg"
-            className="lg:w-[250px] border-8 border-greenC scroll-animate lg:h-[250px] md:h-[230px] md:w-[230px] h-[180px] w-[180px] rounded-xl"
-            alt=""
-          />
+        <div className="lg:w-[250px] bg-[url(../poblic/img/about-img-2.jpg)] bg-cover bg-no-repeat border-8 border-greenC scroll-animate lg:h-[250px] md:h-[230px] md:w-[230px] h-[180px] w-[180px] rounded-xl"></div>
           <div
           id="div1"
             className="font-bold rounded-md mt-28 m-8 text-center flex flex-col outline-8 outline-greenC justify-center items-center lg:h-[130px] lg:w-[130px] md:h-[110px] md:w-[110px] h-[90px] w-[90px] py-3  bg-amber-100 text-greenC"
