@@ -29,7 +29,7 @@ export default function Home() {
   const themeText = dark ? "text-amber-100" : "text-greenC";
 
   return (
-    <div className={`overflow-x-hidden font-kalam relative h-fit ${themeBackground} ${themeText}`}>
+    <div className={`overflow-hidden font-kalam relative h-fit ${themeBackground} ${themeText}`}>
       {/* دکمه تغییر حالت روشن/تیره */}
       <button
         onClick={() => setDark(!dark)}
